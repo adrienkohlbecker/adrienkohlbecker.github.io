@@ -1,0 +1,165 @@
+{
+  "basics": {
+    "name": "Adrien Kohlbecker",
+    "label": "Software Engineer",
+    "picture": "http://en.gravatar.com/userimage/21508534/d09240a1a0111b8bbca0bac0fb50d85a.jpg?size=200",
+    "email": "adrien.kohlbecker@gmail.com",
+    "phone": "+33 6 61 77 96 55",
+    "website": "http://adrienkohlbecker.com",
+    "summary": "I'm an entrepreneur and software engineer focusing on backend architecture and software, fluent in Go, Ruby, Javascript.",
+    "location": {
+      "address": "",
+      "postalCode": "75020",
+      "city": "Paris",
+      "countryCode": "FR",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "adrienkohlbecker",
+        "url": "https://fr.linkedin.com/in/adrienkohlbecker"
+      },
+      {
+        "network": "AngelList",
+        "username": "adrien-kohlbecker",
+        "url": "https://angel.co/adrien-kohlbecker"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Sharette",
+      "position": "Co-founder & CTO",
+      "website": "http://www.sharette.fr",
+      "startDate": "2014-07-01",
+      "summary": "Sharette is a local, instantaneous and multimodal carpooling app, for your everyday commute.",
+      "highlights": []
+    },
+    {
+      "company": "Skerou",
+      "position": "Software Developer",
+      "website": "http://www.skerou.com",
+      "startDate": "2012-10-01",
+      "endDate": "2013-06-30",
+      "summary": "Skerou extracts and analyses the purchases you made at a grocery store using a picture of your receipt. Tech stack: Ruby, Rails, PostgreSQL, MongoDB",
+      "highlights": [
+        "Refactored and reorganized our backround processing pipeline using the Ruote workflow manager library. Resulted in a huge improvement in business reliability and traceability, along with a much more readable code. Released two open source gems to be able to control Resque jobs from Ruote: ruote-resque and ruote-synchronize.",
+        "Automated and optimized common developer tasks (such as deployments, database migrations…) into a command-line tool. Reduced tediousness and potential for errors dramatically, and paved the way for continuous deployment.",
+        "Designed and implemented a duplicated/overlapped receipt detection algorithm, based on textual data and Nilsimsa signature. The signature based approach allowed a fast lookup for fraud detection.",
+        "Proof of concept for receipt data extraction using a Parsing Expression Grammar (with parslet). Improved the maintainability and performance of the old “list of regexps” approach dramaticaly.",
+        "A/B tested Amazon Mechanical Turk forms, providing better layout and instructions to our workers and improving accuracy dramatically.",
+        "Introduced GitHub flow to the team, with code reviews being the most cherished improvement.",
+        "Migrated our code base from multiple apps in different repositories to a single app using Rails Engines, paving the way for code reviews and continuous deployment.",
+        "Created a unified development environment inside a virtual machine using Vagrant.",
+        "Designed and implemented the www.skerou.com website.",
+        "Designed and implemented the www.fidmarques.com website and logo.",
+        "Minor contributions to the activeadmin and ruote gems."
+      ]
+    },
+    {
+      "company": "Gullibear",
+      "position": "Co-founder & CTO",
+      "website": "http://www.gullibear.com",
+      "startDate": "2011-09-01",
+      "endDate": "2012-09-30",
+      "summary": "Gullibear helps people discuss ideas and gather feedback.",
+      "highlights": [
+        "Won several prizes including Mashup and ESSCA entrepreneurship grant.",
+        "Organized a \"Networked Nonprofit\" talk, starring the Red Cross and the Fondation Abbé Pierre.",
+        "Heavily involved in product design and graphic design, as well as every technical decision.",
+        "Public speaking opportunities (Let’s talk big ideas - Centrale Paris campus)",
+        "Technologies used: Python (webapp2 on Google App Engine), Javascript (Backbone.js), HTML5, CSS3."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "École Centrale Paris",
+      "area": "Information Technology",
+      "studyType": "Master",
+      "startDate": "2009-09-01",
+      "endDate": "2014-12-30",
+      "gpa": "",
+      "courses": [
+        "Highly selective master’s level engineering school.",
+        "Key subjects studied: Computer Science and Entrepreneurship.",
+        "Studied airplane jet engine noise reduction techniques in 100-hour team project.",
+        "Designed innovative open-source photography browsing UI in 200-hour team project.",
+        "Investigated an innovative self-service car-renting program (Domobile) in 200-hour team project."
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Sowtware development",
+      "level": "Master",
+      "keywords": [
+        "Ruby on Rails",
+        "Go",
+        "Python",
+        "HTML / CSS / Javascript",
+        "Typescript",
+        "Angular",
+        "Bash",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "AWS",
+        "Nginx / HAProxy",
+        "FluentD",
+        "StatsD",
+        "Devops",
+        "Sysadmin"
+      ]
+    },
+    {
+      "name": "Entrepreneurship",
+      "level": "Master",
+      "keywords": [
+        "Project Management / SCRUM",
+        "Technical Lead",
+        "Recruiting",
+        "Accounting",
+        "Strategy",
+        "Culture / Team building",
+        "Communication"
+      ]
+    },
+    {
+      "name": "Science & Algorithms",
+      "level": "Master",
+      "keywords": [
+        "Routing algorithms",
+        "Statistics",
+        "Electronics",
+        "DIY"
+      ]
+    },
+    {
+      "name": "Design",
+      "level": "Master",
+      "keywords": [
+        "Product Design",
+        "Photoshop",
+        "Illustrator / Sketch",
+        "Premiere"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
