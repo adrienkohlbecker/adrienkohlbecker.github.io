@@ -1,0 +1,14 @@
+---
+resume:
+  build: .
+  container_name: resume
+  hostname: resume
+  domainname: kohlby.fr
+  cap_add:
+    # shr exec
+    - SYS_ADMIN
+  user: root
+  stdin_open: true
+  tty: true
+  ports:
+    - 4000:4000
