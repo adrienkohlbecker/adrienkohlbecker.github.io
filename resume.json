@@ -5,7 +5,7 @@
     "picture": "http://en.gravatar.com/userimage/21508534/d09240a1a0111b8bbca0bac0fb50d85a.jpg?size=200",
     "email": "adrien.kohlbecker@gmail.com",
     "phone": "+33 6 61 77 96 55",
-    "website": "http://adrienkohlbecker.com",
+    "website": "https://adrienkohlbecker.com",
     "summary": "I'm an entrepreneur and software engineer focusing on backend architecture and software, fluent in Go, Ruby, Javascript.",
     "location": {
       "address": "",
@@ -31,7 +31,7 @@
     {
       "company": "Sharette",
       "position": "Co-founder & CTO",
-      "website": "http://www.sharette.fr",
+      "website": "https://www.sharette.fr",
       "startDate": "2014-07-01",
       "summary": "Sharette is a local, instantaneous and multimodal carpooling app, for your everyday commute.",
       "highlights": [
@@ -54,7 +54,7 @@
     {
       "company": "Skerou",
       "position": "Software Developer",
-      "website": "http://www.skerou.com",
+      "website": "https://www.skerou.com",
       "startDate": "2012-10-01",
       "endDate": "2013-06-30",
       "summary": "Skerou extracts and analyses the purchases you made at a grocery store using a picture of your receipt. Tech stack: Ruby, Rails, PostgreSQL, MongoDB",
