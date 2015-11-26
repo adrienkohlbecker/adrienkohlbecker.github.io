@@ -34,7 +34,22 @@
       "website": "http://www.sharette.fr",
       "startDate": "2014-07-01",
       "summary": "Sharette is a local, instantaneous and multimodal carpooling app, for your everyday commute.",
-      "highlights": []
+      "highlights": [
+        "Developped the whole product and infrastructure from scratch, with help from a team of 1-2 developpers",
+        "Designed the routing algorithms powering our itinerary search using Djikstra on a time-dependent graph",
+        "Led the technical integration of our API in the mobile apps of the Paris public transport company (RATP)",
+        "Front-end application with Angular, TypeScript and Ionic, statically hosted on Amazon S3",
+        "Back-end API in Ruby on Rails, with PostgreSQL and Redis as data-stores",
+        "Various microservices in Go: routing algorithms, geographical data querying and high-load APIs (20req/s)",
+        "Fully automated infrastructure: immutable AMIs, Cloudformation templates with Troposphere, deployment using Docker and Amazon ECS",
+        "Self-hosted continuous integration with BuildKite and Docker (migrated from CircleCI)",
+        "Internal CLI toolbelt for development automation and credentials management",
+        "Logs collection using FluentD with custom plugins, hosted by Logstash",
+        "Infrastructure monitoring and alerting with Datadog",
+        "Analytics and BI system using Redash and Segment with in-house data storage",
+        "General team building and management, company culture and development processes",
+        "Oversaw the design and branding of the product and the company"
+      ]
     },
     {
       "company": "Skerou",
