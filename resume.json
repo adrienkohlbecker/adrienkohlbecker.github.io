@@ -44,7 +44,7 @@
         "Fully automated infrastructure: immutable AMIs, Cloudformation templates with Troposphere, deployment using Docker and Amazon ECS",
         "Self-hosted continuous integration with BuildKite and Docker (migrated from CircleCI)",
         "Internal CLI toolbelt for development automation and credentials management",
-        "Logs collection using FluentD with custom plugins, hosted by Logstash",
+        "Logs collection using FluentD with custom plugins, hosted by Loggly",
         "Infrastructure monitoring and alerting with Datadog",
         "Analytics and BI system using Redash and Segment with in-house data storage",
         "General team building and management, company culture and development processes",
