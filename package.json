@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/adrienkohlbecker/resume#readme",
   "dependencies": {
-    "log4js": "^0.6.27",
+    "log4js": "^0.6.36",
     "node-static": "^0.7.7",
-    "resume-cli": "^0.4.8"
+    "resume-cli": "^0.4.13"
   }
 }
