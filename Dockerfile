@@ -31,7 +31,7 @@ WORKDIR /app/resume
 RUN set -x && \
     mv /tmp/node_modules /app/resume && \
     chown -R adrien:media /app/resume && \
-    resume export --format html dist/index.html && \
+    resume export --format html --theme slick dist/index.html && \
     gzip --keep --best dist/index.html
 
 ENV SHR_EXEC_MODE development
