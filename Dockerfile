@@ -32,6 +32,8 @@ RUN set -x && \
     mv /tmp/node_modules /app/resume && \
     chown -R adrien:media /app/resume && \
     resume export --format html --theme slick dist/index.html && \
+    sed -i 's|http://fonts.googleapis.com|https://fonts.googleapis.com|' dist/index.html && \
+    sed -i 's|http://bootswatch.com|https://bootswatch.com|' dist/index.html && \
     gzip --keep --best dist/index.html
 
 ENV SHR_EXEC_MODE development
