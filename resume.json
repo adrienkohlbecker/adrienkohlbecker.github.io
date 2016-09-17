@@ -36,20 +36,21 @@
       "endDate": "2016-04-04",
       "summary": "Sharette is a local, instantaneous and multimodal carpooling app, for your everyday commute.",
       "highlights": [
-        "Developped the whole product and infrastructure from scratch, with help from a team of 1-2 developpers",
-        "Designed the routing algorithms powering our itinerary search using Djikstra on a time-dependent graph",
-        "Led the technical integration of our API in the mobile apps of the Paris public transport company (RATP)",
-        "Front-end application with Angular, TypeScript and Ionic, statically hosted on Amazon S3",
-        "Back-end API in Ruby on Rails, with PostgreSQL and Redis as data-stores",
-        "Various microservices in Go: routing algorithms, geographical data querying and high-load APIs (20req/s)",
-        "Fully automated infrastructure: immutable AMIs, Cloudformation templates with Troposphere, deployment using Docker and Amazon ECS",
-        "Self-hosted continuous integration with BuildKite and Docker (migrated from CircleCI)",
-        "Internal CLI toolbelt for development automation and credentials management",
-        "Logs collection using FluentD with custom plugins, hosted by Loggly",
-        "Infrastructure monitoring and alerting with Datadog",
-        "Analytics and BI system using Redash and Segment with in-house data storage",
-        "General team building and management, company culture and development processes",
-        "Oversaw the design and branding of the product and the company"
+        "Developped the whole product and infrastructure from scratch, with help from a team of 1-2 developpers.",
+        "Designed the routing algorithms powering our itinerary search.",
+        "Led the technical integration of our API in the mobile apps of the Paris public transport company (RATP).",
+        "Front-end application with Angular, TypeScript and Ionic, statically hosted on Amazon S3.",
+        "Back-end API in Ruby on Rails, with PostgreSQL and Redis as data-stores.",
+        "Various microservices in Go: routing algorithms, geographical data querying.",
+        "Fully automated infrastructure: immutable AMIs, Cloudformation templates with Troposphere, deployment using Docker and Amazon ECS, configuration management with Ansible.",
+        "Self-hosted continuous integration with BuildKite and Docker (migrated from CircleCI).",
+        "Internal CLI toolbelt for development automation and credentials management.",
+        "Logs collection using FluentD with custom plugins, hosted by Loggly.",
+        "Infrastructure monitoring and alerting with Datadog.",
+        "General team building and management, company culture and development processes.",
+        "Oversaw the design and branding of the product and the company.",
+        "Open sourced the vagrant-fsnotigy gem, a vagrant plugin providing filesystem notifications on shared folders.",
+        "Minor contributions to go-dockerclient, go-errors and definitelytyped."
       ]
     },
     {
@@ -60,16 +61,17 @@
       "endDate": "2013-06-30",
       "summary": "Skerou extracts and analyses the purchases you made at a grocery store using a picture of your receipt. Tech stack: Ruby, Rails, PostgreSQL, MongoDB",
       "highlights": [
-        "Refactored and reorganized our backround processing pipeline using the Ruote workflow manager library. Resulted in a huge improvement in business reliability and traceability, along with a much more readable code. Released two open source gems to be able to control Resque jobs from Ruote: ruote-resque and ruote-synchronize.",
-        "Automated and optimized common developer tasks (such as deployments, database migrations…) into a command-line tool. Reduced tediousness and potential for errors dramatically, and paved the way for continuous deployment.",
+        "Refactored and reorganized our backround processing pipeline using the Ruote workflow manager library. Resulted in a huge improvement in business reliability and traceability, along with a much more readable code.",
+        "Automated and optimized common developer tasks (such as deployments, database migrations...) into a command-line tool. Reduced tediousness and potential for errors dramatically, and paved the way for continuous deployment.",
         "Designed and implemented a duplicated/overlapped receipt detection algorithm, based on textual data and Nilsimsa signature. The signature based approach allowed a fast lookup for fraud detection.",
-        "Proof of concept for receipt data extraction using a Parsing Expression Grammar (with parslet). Improved the maintainability and performance of the old “list of regexps” approach dramaticaly.",
-        "A/B tested Amazon Mechanical Turk forms, providing better layout and instructions to our workers and improving accuracy dramatically.",
-        "Introduced GitHub flow to the team, with code reviews being the most cherished improvement.",
-        "Migrated our code base from multiple apps in different repositories to a single app using Rails Engines, paving the way for code reviews and continuous deployment.",
+        "Proof of concept for receipt data extraction using a Parsing Expression Grammar (with parslet). Improved the maintainability and performance dramaticaly.",
+        "A/B tested Amazon Mechanical Turk forms, providing better layout and instructions to our workers and improving accuracy.",
+        "Introduced GitHub flow to the team.",
+        "Migrated our code base from multiple apps in different repositories to a single app using Rails Engines.",
         "Created a unified development environment inside a virtual machine using Vagrant.",
         "Designed and implemented the www.skerou.com website.",
         "Designed and implemented the www.fidmarques.com website and logo.",
+        "Opensourced two gems for controlling Resque jobs from Ruote: ruote-resque and ruote-synchronize.",
         "Minor contributions to the activeadmin and ruote gems."
       ]
     },
@@ -81,11 +83,11 @@
       "endDate": "2012-09-30",
       "summary": "Gullibear helps people discuss ideas and gather feedback.",
       "highlights": [
+        "Developped a social platform using python (webapp2 on Google App Engine), Javascript (Backbone.js), HTML5, CSS3",
+        "Heavily involved in product design and graphic design.",
         "Won several prizes including Mashup and ESSCA entrepreneurship grant.",
         "Organized a \"Networked Nonprofit\" talk, starring the Red Cross and the Fondation Abbé Pierre.",
-        "Heavily involved in product design and graphic design, as well as every technical decision.",
-        "Public speaking opportunities (Let’s talk big ideas - Centrale Paris campus)",
-        "Technologies used: Python (webapp2 on Google App Engine), Javascript (Backbone.js), HTML5, CSS3."
+        "Public speaking opportunities (Let’s talk big ideas - Centrale Paris campus)"
       ]
     }
   ],
@@ -127,8 +129,10 @@
         "AWS",
         "Nginx / HAProxy",
         "FluentD",
+        "Linux",
         "StatsD",
         "Devops",
+        "Networking",
         "Sysadmin"
       ]
     },
