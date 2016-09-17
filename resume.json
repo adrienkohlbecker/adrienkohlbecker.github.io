@@ -6,7 +6,7 @@
     "email": "adrien.kohlbecker@gmail.com",
     "phone": "+33 6 61 77 96 55",
     "website": "https://adrienkohlbecker.com",
-    "summary": "I'm an entrepreneur and software engineer focusing on backend architecture and software, fluent in Go, Ruby, Javascript.",
+    "summary": "Entrepreneur and software engineer focusing on backend architecture and software.",
     "location": {
       "address": "",
       "postalCode": "75020",
@@ -15,6 +15,11 @@
       "region": ""
     },
     "profiles": [
+      {
+        "network": "GitHub",
+        "username": "adrienkohlbecker",
+        "url": "https://github.com/adrienkohlbecker"
+      },
       {
         "network": "LinkedIn",
         "username": "adrienkohlbecker",
@@ -31,7 +36,7 @@
     {
       "company": "Sharette",
       "position": "Co-founder & CTO",
-      "website": "https://www.sharette.fr",
+      "website": "https://www.facebook.com/sharette.fr",
       "startDate": "2014-07-01",
       "endDate": "2016-04-04",
       "summary": "Sharette is a local, instantaneous and multimodal carpooling app, for your everyday commute.",
@@ -54,23 +59,22 @@
       ]
     },
     {
-      "company": "Skerou",
-      "position": "Software Developer",
-      "website": "https://www.skerou.com",
+      "company": "FidMarques",
+      "position": "Backend Developer",
+      "website": "https://www.fidmarques.com/",
       "startDate": "2012-10-01",
       "endDate": "2013-06-30",
-      "summary": "Skerou extracts and analyses the purchases you made at a grocery store using a picture of your receipt. Tech stack: Ruby, Rails, PostgreSQL, MongoDB",
+      "summary": "FidMarques extracts and analyses the purchases you made at a grocery store using a picture of your receipt. Tech stack: Ruby, Rails, PostgreSQL, MongoDB",
       "highlights": [
-        "Refactored and reorganized our backround processing pipeline using the Ruote workflow manager library. Resulted in a huge improvement in business reliability and traceability, along with a much more readable code.",
-        "Automated and optimized common developer tasks (such as deployments, database migrations...) into a command-line tool. Reduced tediousness and potential for errors dramatically, and paved the way for continuous deployment.",
-        "Designed and implemented a duplicated/overlapped receipt detection algorithm, based on textual data and Nilsimsa signature. The signature based approach allowed a fast lookup for fraud detection.",
-        "Proof of concept for receipt data extraction using a Parsing Expression Grammar (with parslet). Improved the maintainability and performance dramaticaly.",
-        "A/B tested Amazon Mechanical Turk forms, providing better layout and instructions to our workers and improving accuracy.",
+        "Refactored and reorganized our backround processing pipeline using the Ruote workflow manager library.",
+        "Automated and optimized common developer tasks into a command-line tool.",
+        "Designed and implemented a duplicated receipt detection algorithm, based on textual data and Nilsimsa signature.",
+        "Proof of concept for receipt data extraction using a Parsing Expression Grammar (with parslet).",
+        "A/B tested Amazon Mechanical Turk forms.",
         "Introduced GitHub flow to the team.",
         "Migrated our code base from multiple apps in different repositories to a single app using Rails Engines.",
         "Created a unified development environment inside a virtual machine using Vagrant.",
-        "Designed and implemented the www.skerou.com website.",
-        "Designed and implemented the www.fidmarques.com website and logo.",
+        "Designed and implemented the corporate website.",
         "Opensourced two gems for controlling Resque jobs from Ruote: ruote-resque and ruote-synchronize.",
         "Minor contributions to the activeadmin and ruote gems."
       ]
@@ -83,7 +87,7 @@
       "endDate": "2012-09-30",
       "summary": "Gullibear helps people discuss ideas and gather feedback.",
       "highlights": [
-        "Developped a social platform using python (webapp2 on Google App Engine), Javascript (Backbone.js), HTML5, CSS3",
+        "Developped a social platform using python (Google App Engine), Javascript (Backbone.js), HTML5, CSS3",
         "Heavily involved in product design and graphic design.",
         "Won several prizes including Mashup and ESSCA entrepreneurship grant.",
         "Organized a \"Networked Nonprofit\" talk, starring the Red Cross and the Fondation Abbé Pierre.",
