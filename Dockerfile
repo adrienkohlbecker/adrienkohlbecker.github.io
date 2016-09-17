@@ -2,7 +2,7 @@ FROM kohlby/base:latest
 
 RUN set -x && \
     apt-get --quiet --yes update && \
-    apt-get --quiet --yes install curl apt-transport-https && \
+    apt-get --quiet --yes install curl apt-transport-https jq && \
     curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add - && \
     echo 'deb https://deb.nodesource.com/node_5.x trusty main' > /etc/apt/sources.list.d/nodesource.list && \
     echo 'deb-src https://deb.nodesource.com/node_5.x trusty main' >> /etc/apt/sources.list.d/nodesource.list && \
@@ -34,6 +34,7 @@ RUN set -x && \
     resume export --format html --theme slick dist/index.html && \
     sed -i 's|http://fonts.googleapis.com|https://fonts.googleapis.com|' dist/index.html && \
     sed -i 's|http://bootswatch.com|https://bootswatch.com|' dist/index.html && \
+    sed -i "s|</head>|<meta name=\"description\" value=\"$(jq -r ".basics.summary" resume.json)\" />\n</head>|" dist/index.html && \
     gzip --keep --best dist/index.html
 
 ENV SHR_EXEC_MODE development
