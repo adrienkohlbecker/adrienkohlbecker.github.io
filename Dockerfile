@@ -34,7 +34,7 @@ RUN set -x && \
     resume export --format html --theme slick dist/index.html && \
     sed -i 's|http://fonts.googleapis.com|https://fonts.googleapis.com|' dist/index.html && \
     sed -i 's|http://bootswatch.com|https://bootswatch.com|' dist/index.html && \
-    sed -i "s|</head>|<meta name=\"description\" value=\"$(jq -r ".basics.summary" resume.json)\" />\n</head>|" dist/index.html && \
+    sed -i "s|</head>|<meta name=\"description\" content=\"$(jq -r ".basics.summary" resume.json)\" />\n</head>|" dist/index.html && \
     gzip --keep --best dist/index.html
 
 ENV SHR_EXEC_MODE development
