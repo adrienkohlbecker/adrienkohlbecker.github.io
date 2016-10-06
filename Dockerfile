@@ -10,6 +10,7 @@ RUN set -x && \
     ln -s /usr/bin/nodejs /usr/bin/node
 
 ENV PATH "./node_modules/.bin:$PATH"
+EXPOSE 4000
 
 WORKDIR /tmp
 ADD package.json /tmp/package.json
