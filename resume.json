@@ -35,10 +35,19 @@
   "work": [
     {
       "company": "Datadog",
+      "position": "Senior Software Engineer",
+      "website": "https://www.datadoghq.com",
+      "startDate": "2017-02-27",
+      "endDate": "",
+      "summary": "Cloud-Scale Monitoring: Monitoring that tracks your dynamic infrastructure and applications.",
+      "highlights": []
+    },
+    {
+      "company": "Datadog",
       "position": "Software Engineer",
       "website": "https://www.datadoghq.com",
       "startDate": "2017-01-10",
-      "endDate": "",
+      "endDate": "2017-02-27",
       "summary": "Cloud-Scale Monitoring: Monitoring that tracks your dynamic infrastructure and applications.",
       "highlights": []
     },
