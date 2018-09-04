@@ -6,7 +6,7 @@
     "email": "adrien.kohlbecker@gmail.com",
     "phone": "+44 7432 562897",
     "website": "https://adrienkohlbecker.com",
-    "summary": "I'm an experienced Senior Software Engineer and Entrepreneur with a demonstrated experience in the computer software industry. Throughout my career, I have been focusing on building reliable and scalable complex systems, as well as increasing developer efficiency through automation. I'm looking for architect roles at companies targetting developers with a strong infrastructure and tooling focus.",
+    "summary": "I'm a Senior Software Engineer and Entrepreneur with a demonstrated experience in the computer software industry.  Throughout my career, I have been focusing on building reliable and scalable complex systems, as well as increasing developer efficiency through automation. I'm looking for architect roles at companies targetting developers with a strong infrastructure and tooling focus.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -111,18 +111,31 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "École Centrale Paris",
-      "studyType": "MSc Engineering - Computer Science & Project Management",
+      "institution": "École Centrale Paris, Paris (FR)",
+      "studyType": "MSc Engineering",
+      "area": "Computer Science & Project Management",
       "startDate": "2009-09-01",
       "endDate": "2014-12-30",
       "gpa": "",
       "courses": [
         "Highly selective master’s level engineering school",
-        "Key subjects studied: Computer Science and Entrepreneurship",
         "Studied airplane jet engine noise reduction techniques in 100-hour team project",
         "Designed innovative open-source photography browsing UI in 200-hour team project",
-        "Investigated an innovative self-service car-renting program (Domobile) in 200-hour team project."
+        "Investigated an innovative self-service car-renting program (Domobile) in 200-hour team project.",
+        "Telemarketer for the school corporate funding team",
+        "Tutor for students ranging from high school level to Bachelor level",
+        "Took a one month beginner chinese course at Shanghai Jiao Tong University",
+        "Participated in Winstrat, a business simulation game, and won the second prize against 100+ competing teams"
       ]
+    },
+    {
+      "institution": "Hanyang University, Seoul (SK)",
+      "studyType": "Exchange semester",
+      "area": "Computer Science",
+      "startDate": "2012-02-01",
+      "endDate": "2012-06-30",
+      "gpa": "",
+      "courses": []
     }
   ],
   "awards": [],
