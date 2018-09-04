@@ -55,17 +55,12 @@
       "endDate": "2016-04-04",
       "summary": "Sharette was a carpooling app designed for your every day commute, mixing public transports with car rides. As a co-founder, I was involved in many things: leading the r&d team, product development and design, fundraising, hiring, company culture, public speaking to name a few.",
       "highlights": [
-        "Developed the product and backing infrastructure from scratch",
-        "Researched and designed the routing algorithms powering our itinerary search",
+        "Developed the product and backing infrastructure from scratch, using technologies like Go, Ruby on Rails, Angular, TypeScript, PostgreSQL among others",
+        "Researched and designed the routing algorithms and geo datastores powering our itinerary search",
         "Led the integration of our API in the mobile apps of the Paris public transport company (RATP)",
-        "Front-end application with Angular, TypeScript and Ionic, statically hosted on Amazon S3",
-        "Back-end API in Ruby on Rails, with PostgreSQL and Redis as data-stores",
-        "Developed various microservices in Go: routing algorithms, geographical data querying",
-        "Built a fully automated infrastructure: immutable AMIs, Cloudformation templates with Troposphere, deployment using Docker and Amazon ECS, configuration management with Ansible",
+        "Built a fully automated and monitored infrastructure: immutable AMIs, Cloudformation, containers on Amazon ECS, Ansible, Loggly and Datadog",
         "Managed our self-hosted continuous integration with BuildKite and Docker",
         "Developed an internal CLI tool for development automation and credentials management",
-        "Set up logs collection using FluentD with custom plugins, hosted by Loggly",
-        "Installed infrastructure monitoring and alerting with Datadog",
         "Contributed to company-wide team building and management, hiring, company culture and development processes",
         "Oversaw the design and branding of the product and the company",
         "Open sourced the vagrant-fsnotify gem, a vagrant plugin providing filesystem notifications on shared folders",
@@ -84,10 +79,8 @@
         "Automated and optimized common developer tasks into a CLI tool",
         "Designed and implemented a duplicated receipt detection algorithm, based on textual data and the Nilsimsa signature algorithm",
         "Built a POC for receipt data extraction using a Parsing Expression Grammar (with parslet)",
-        "A/B tested Amazon Mechanical Turk forms",
         "Migrated our code base to a monorepo using Rails Engines",
         "Created a unified development environment inside a virtual machine using Vagrant",
-        "Designed and implemented the corporate website",
         "Opensourced two gems for controlling Resque jobs from Ruote: ruote-resque and ruote-synchronize",
         "Minor contributions to the activeadmin and ruote gems."
       ]
@@ -102,7 +95,6 @@
       "highlights": [
         "Developed a social platform using python on Google App Engine, Backbone.js, HTML5, CSS3",
         "Heavily involved in product design and graphic design",
-        "Won several industry prizes including Mashup and ESSCA entrepreneurship grant",
         "Organized a \"Networked Nonprofit\" conference, with talks from the Red Cross and the Fondation Abbé Pierre",
         "Presented the company at various public events"
       ]
