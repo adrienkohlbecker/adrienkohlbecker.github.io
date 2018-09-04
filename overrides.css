@@ -1,0 +1,51 @@
+.highlights li, .courses li {
+  text-align: justify;
+  list-style-type: circle;
+  margin-left: 15px;
+}
+
+#location, #contact .fa {
+  display: none;
+}
+
+.website::before {
+  content: none;
+}
+
+a {
+  color: #702f14;
+}
+
+.courses li {
+  display: list-item;
+  background: none;
+  font-size: 1em;
+  line-height: inherit;
+  color: initial;
+  padding: 0;
+  border-bottom: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.keywords li {
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 602px) {
+
+  .highlights li, .courses li {
+    line-height: 1.3em;
+    margin-left: 0;
+    padding-top: 0.3em;
+  }
+
+  #resume {
+    width: 660px;
+  }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+}

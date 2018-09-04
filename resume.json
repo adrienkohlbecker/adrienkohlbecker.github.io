@@ -6,7 +6,7 @@
     "email": "adrien.kohlbecker@gmail.com",
     "phone": "+44 7432 562897",
     "website": "https://adrienkohlbecker.com",
-    "summary": "Entrepreneur and software engineer focusing on backend architecture and software.",
+    "summary": "I'm an experienced Senior Software Engineer and Entrepreneur with a demonstrated experience in the computer software industry. Throughout my career, I have been focusing on building reliable and scalable complex systems, as well as increasing developer efficiency through automation. I'm looking for architect roles at companies targetting developers with a strong infrastructure and tooling focus.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,11 +24,6 @@
         "network": "LinkedIn",
         "username": "adrienkohlbecker",
         "url": "https://linkedin.com/in/adrienkohlbecker"
-      },
-      {
-        "network": "AngelList",
-        "username": "adrienkohlbecker",
-        "url": "https://angel.co/adrienkohlbecker"
       }
     ]
   },
@@ -37,78 +32,79 @@
       "company": "Datadog",
       "position": "Senior Software Engineer - Engineering Tools",
       "website": "https://www.datadoghq.com",
-      "startDate": "2018-02-27",
-      "summary": "Cloud-Scale Monitoring: Monitoring that tracks your dynamic infrastructure and applications.",
-      "highlights": []
-    },
-    {
-      "company": "Datadog",
-      "position": "Software Engineer - Developer Efficiency",
-      "website": "https://www.datadoghq.com",
       "startDate": "2017-01-10",
-      "endDate": "2018-02-27",
-      "summary": "Cloud-Scale Monitoring: Monitoring that tracks your dynamic infrastructure and applications.",
-      "highlights": []
+      "summary": "Datadog is a monitoring and analytics platform for cloud-scale application infrastructure. As part of the Engineering Tools team, my role is to help people be efficient and successful at their jobs. Among other projects, I'm the main architect behind the build infrastructure used daily by 300 engineers.",
+      "highlights": [
+        "Built from scratch the latest generation of build infrastructure: a container-based, locked-down and multi-tenant environment",
+        "Scaled up Gitlab to reliably run hundreds of build jobs per hour, with detailed monitoring and alerting",
+        "Coached and assisted engineers on CI best practices and performance, shaving hundreds of man-hours of toil and wait times accross all our repositories",
+        "Designed a per-project CI IAM permission system (kube2iam-like for Gitlab Docker runners)",
+        "Migrated tens of CI secrets from various stores to AWS SSM, making them centrally managed and auditable",
+        "Developed a system to give privileged docker socket access to build jobs while keeping safe multi-tenancy",
+        "Improved the systems hosting internal artifacts (both debian packages and docker images)",
+        "Moved the static assets used in the production website to be built for and deployed through a CDN",
+        "Transitioned our monolith python app to a virtualenv-based deployment",
+        "Contributed to the virtualbox development environment used locally by engineers, including building and hosting it in AWS"
+      ]
     },
     {
       "company": "Sharette",
-      "position": "Co-founder & CTO",
+      "position": "Co-founder and CTO",
       "website": "https://www.facebook.com/sharette.fr",
       "startDate": "2014-07-01",
       "endDate": "2016-04-04",
-      "summary": "Sharette is a local, instantaneous and multimodal carpooling app, for your everyday commute.",
+      "summary": "Sharette was a carpooling app designed for your every day commute, mixing public transports with car rides. As a co-founder, I was involved in many things: leading the r&d team, product development and design, fundraising, hiring, company culture, public speaking to name a few.",
       "highlights": [
-        "Developped the whole product and infrastructure from scratch, with help from a team of 1-2 developpers.",
-        "Designed the routing algorithms powering our itinerary search.",
-        "Led the technical integration of our API in the mobile apps of the Paris public transport company (RATP).",
-        "Front-end application with Angular, TypeScript and Ionic, statically hosted on Amazon S3.",
-        "Back-end API in Ruby on Rails, with PostgreSQL and Redis as data-stores.",
-        "Various microservices in Go: routing algorithms, geographical data querying.",
-        "Fully automated infrastructure: immutable AMIs, Cloudformation templates with Troposphere, deployment using Docker and Amazon ECS, configuration management with Ansible.",
-        "Self-hosted continuous integration with BuildKite and Docker (migrated from CircleCI).",
-        "Internal CLI toolbelt for development automation and credentials management.",
-        "Logs collection using FluentD with custom plugins, hosted by Loggly.",
-        "Infrastructure monitoring and alerting with Datadog.",
-        "General team building and management, company culture and development processes.",
-        "Oversaw the design and branding of the product and the company.",
-        "Open sourced the vagrant-fsnotigy gem, a vagrant plugin providing filesystem notifications on shared folders.",
+        "Developed the product and backing infrastructure from scratch",
+        "Researched and designed the routing algorithms powering our itinerary search",
+        "Led the integration of our API in the mobile apps of the Paris public transport company (RATP)",
+        "Front-end application with Angular, TypeScript and Ionic, statically hosted on Amazon S3",
+        "Back-end API in Ruby on Rails, with PostgreSQL and Redis as data-stores",
+        "Developed various microservices in Go: routing algorithms, geographical data querying",
+        "Built a fully automated infrastructure: immutable AMIs, Cloudformation templates with Troposphere, deployment using Docker and Amazon ECS, configuration management with Ansible",
+        "Managed our self-hosted continuous integration with BuildKite and Docker",
+        "Developed an internal CLI tool for development automation and credentials management",
+        "Set up logs collection using FluentD with custom plugins, hosted by Loggly",
+        "Installed infrastructure monitoring and alerting with Datadog",
+        "Contributed to company-wide team building and management, hiring, company culture and development processes",
+        "Oversaw the design and branding of the product and the company",
+        "Open sourced the vagrant-fsnotify gem, a vagrant plugin providing filesystem notifications on shared folders",
         "Minor contributions to go-dockerclient, go-errors and definitelytyped."
       ]
     },
     {
       "company": "FidMarques",
-      "position": "Backend Developer",
+      "position": "Software Engineer",
       "website": "https://www.fidmarques.com/",
       "startDate": "2012-10-01",
       "endDate": "2013-06-30",
-      "summary": "FidMarques extracts and analyses the purchases you made at a grocery store using a picture of your receipt. Tech stack: Ruby, Rails, PostgreSQL, MongoDB",
+      "summary": "FidMarques extracts and analyses the purchases you made at a grocery store using a picture of your receipt. While I contributed to multiple areas of the product, my primary focus was on building a resilient background processing pipeline and improving developer productivity through automation.",
       "highlights": [
-        "Refactored and reorganized our backround processing pipeline using the Ruote workflow manager library.",
-        "Automated and optimized common developer tasks into a command-line tool.",
-        "Designed and implemented a duplicated receipt detection algorithm, based on textual data and Nilsimsa signature.",
-        "Proof of concept for receipt data extraction using a Parsing Expression Grammar (with parslet).",
-        "A/B tested Amazon Mechanical Turk forms.",
-        "Introduced GitHub flow to the team.",
-        "Migrated our code base from multiple apps in different repositories to a single app using Rails Engines.",
-        "Created a unified development environment inside a virtual machine using Vagrant.",
-        "Designed and implemented the corporate website.",
-        "Opensourced two gems for controlling Resque jobs from Ruote: ruote-resque and ruote-synchronize.",
+        "Refactored and reorganized our backround processing pipeline using the Ruote workflow manager",
+        "Automated and optimized common developer tasks into a CLI tool",
+        "Designed and implemented a duplicated receipt detection algorithm, based on textual data and the Nilsimsa signature algorithm",
+        "Built a POC for receipt data extraction using a Parsing Expression Grammar (with parslet)",
+        "A/B tested Amazon Mechanical Turk forms",
+        "Migrated our code base to a monorepo using Rails Engines",
+        "Created a unified development environment inside a virtual machine using Vagrant",
+        "Designed and implemented the corporate website",
+        "Opensourced two gems for controlling Resque jobs from Ruote: ruote-resque and ruote-synchronize",
         "Minor contributions to the activeadmin and ruote gems."
       ]
     },
     {
       "company": "Gullibear",
-      "position": "Co-founder & CTO",
+      "position": "Co-founder and CTO",
       "website": "https://www.facebook.com/iam.gullibear",
       "startDate": "2011-09-01",
       "endDate": "2012-09-30",
-      "summary": "Gullibear helps people discuss ideas and gather feedback.",
+      "summary": "Gullibear was a social network to share and contribute to entrpreneurship projects. As a co-founder I participated in many areas of the company including development, design, product, marketing and admin tasks.",
       "highlights": [
-        "Developped a social platform using python (Google App Engine), Javascript (Backbone.js), HTML5, CSS3",
-        "Heavily involved in product design and graphic design.",
-        "Won several prizes including Mashup and ESSCA entrepreneurship grant.",
-        "Organized a \"Networked Nonprofit\" talk, starring the Red Cross and the Fondation Abbé Pierre.",
-        "Public speaking opportunities (Let’s talk big ideas - Centrale Paris campus)"
+        "Developed a social platform using python on Google App Engine, Backbone.js, HTML5, CSS3",
+        "Heavily involved in product design and graphic design",
+        "Won several industry prizes including Mashup and ESSCA entrepreneurship grant",
+        "Organized a \"Networked Nonprofit\" conference, with talks from the Red Cross and the Fondation Abbé Pierre",
+        "Presented the company at various public events"
       ]
     }
   ],
@@ -116,80 +112,22 @@
   "education": [
     {
       "institution": "École Centrale Paris",
-      "studyType": "MSc Engineering, Project Management, Leadership, Product Design, Computer Science",
+      "studyType": "MSc Engineering - Computer Science & Project Management",
       "startDate": "2009-09-01",
       "endDate": "2014-12-30",
       "gpa": "",
       "courses": [
-        "Highly selective master’s level engineering school.",
-        "Key subjects studied: Computer Science and Entrepreneurship.",
-        "Studied airplane jet engine noise reduction techniques in 100-hour team project.",
-        "Designed innovative open-source photography browsing UI in 200-hour team project.",
+        "Highly selective master’s level engineering school",
+        "Key subjects studied: Computer Science and Entrepreneurship",
+        "Studied airplane jet engine noise reduction techniques in 100-hour team project",
+        "Designed innovative open-source photography browsing UI in 200-hour team project",
         "Investigated an innovative self-service car-renting program (Domobile) in 200-hour team project."
       ]
     }
   ],
   "awards": [],
   "publications": [],
-  "skills": [
-    {
-      "name": "Software development",
-      "level": "Master",
-      "keywords": [
-        "Ruby on Rails",
-        "Go",
-        "Python",
-        "HTML / CSS / Javascript",
-        "Typescript",
-        "Angular",
-        "Bash",
-        "PostgreSQL",
-        "Redis",
-        "Docker",
-        "AWS",
-        "Nginx / HAProxy",
-        "FluentD",
-        "Linux",
-        "StatsD",
-        "Devops",
-        "Networking",
-        "Sysadmin"
-      ]
-    },
-    {
-      "name": "Entrepreneurship",
-      "level": "Master",
-      "keywords": [
-        "Project Management / SCRUM",
-        "Technical Lead",
-        "Recruiting",
-        "Accounting",
-        "Strategy",
-        "Culture / Team building",
-        "Communication"
-      ]
-    },
-    {
-      "name": "Science & Algorithms",
-      "level": "Master",
-      "keywords": [
-        "Routing algorithms",
-        "Statistics",
-        "Electronics",
-        "DIY"
-      ]
-    },
-    {
-      "name": "Design",
-      "level": "Master",
-      "keywords": [
-        "Product Design",
-        "Photoshop",
-        "Illustrator / Sketch",
-        "Premiere"
-      ]
-    }
-  ],
+  "skills": [],
   "languages": [
     {
       "language": "French",
