@@ -1,17 +1,17 @@
 {
   "basics": {
     "name": "Adrien Kohlbecker",
-    "label": "Software Engineer",
+    "label": "Senior Software Engineer",
     "picture": "https://www.gravatar.com/avatar/2ddf351c22a32261a7b30e4d5ae3ab01?s=300",
     "email": "adrien.kohlbecker@gmail.com",
-    "phone": "+33 6 61 77 96 55",
+    "phone": "+44 7432 562897",
     "website": "https://adrienkohlbecker.com",
     "summary": "Entrepreneur and software engineer focusing on backend architecture and software.",
     "location": {
       "address": "",
-      "postalCode": "75020",
-      "city": "Paris",
-      "countryCode": "FR",
+      "postalCode": "",
+      "city": "London",
+      "countryCode": "UK",
       "region": ""
     },
     "profiles": [
@@ -23,31 +23,30 @@
       {
         "network": "LinkedIn",
         "username": "adrienkohlbecker",
-        "url": "https://fr.linkedin.com/in/adrienkohlbecker"
+        "url": "https://linkedin.com/in/adrienkohlbecker"
       },
       {
         "network": "AngelList",
-        "username": "adrien-kohlbecker",
-        "url": "https://angel.co/adrien-kohlbecker"
+        "username": "adrienkohlbecker",
+        "url": "https://angel.co/adrienkohlbecker"
       }
     ]
   },
   "work": [
     {
       "company": "Datadog",
-      "position": "Senior Software Engineer",
+      "position": "Senior Software Engineer - Engineering Tools",
       "website": "https://www.datadoghq.com",
-      "startDate": "2017-02-27",
-      "endDate": "",
+      "startDate": "2018-02-27",
       "summary": "Cloud-Scale Monitoring: Monitoring that tracks your dynamic infrastructure and applications.",
       "highlights": []
     },
     {
       "company": "Datadog",
-      "position": "Software Engineer",
+      "position": "Software Engineer - Developer Efficiency",
       "website": "https://www.datadoghq.com",
       "startDate": "2017-01-10",
-      "endDate": "2017-02-27",
+      "endDate": "2018-02-27",
       "summary": "Cloud-Scale Monitoring: Monitoring that tracks your dynamic infrastructure and applications.",
       "highlights": []
     },
