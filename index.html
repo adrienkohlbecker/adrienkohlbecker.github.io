@@ -523,7 +523,7 @@ h2.section-title {
 	</style>
 	
 
-	<meta name="description" content="I'm a Senior Software Engineer and Entrepreneur with a demonstrated experience in the computer software industry. Throughout my career, I have been focusing on building reliable and scalable complex systems, as well as increasing developer efficiency through automation. I'm looking for architect roles at companies targetting developers with a strong infrastructure and tooling focus." />
+	<meta name="description" content="I'm a Senior Software Engineer and Entrepreneur with a demonstrated experience in the computer software industry. Throughout my career, I have been focusing on building reliable and scalable distributed systems, as well as increasing developer efficiency through automation. I'm looking for engineering roles at companies targetting developers, with a strong infrastructure and tooling focus." />
 <link rel=stylesheet href="overrides.css" />
 <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png"> <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png"> <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png"> <link rel="manifest" href="/icons/site.webmanifest"> <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#da532c"> <link rel="shortcut icon" href="/icons/favicon.ico"> <meta name="msapplication-TileColor" content="#da532c"> <meta name="msapplication-config" content="/icons/browserconfig.xml"> <meta name="theme-color" content="#ffffff">
 <body>
@@ -586,7 +586,7 @@ h2.section-title {
 				<section class="section main-summary">
 					<h2 class='section-title'>About</h2>
 					<section>
-						<p>I&#x27;m a Senior Software Engineer and Entrepreneur with a demonstrated experience in the computer software industry. Throughout my career, I have been focusing on building reliable and scalable complex systems, as well as increasing developer efficiency through automation. I&#x27;m looking for architect roles at companies targetting developers with a strong infrastructure and tooling focus.</p>
+						<p>I&#x27;m a Senior Software Engineer and Entrepreneur with a demonstrated experience in the computer software industry. Throughout my career, I have been focusing on building reliable and scalable distributed systems, as well as increasing developer efficiency through automation. I&#x27;m looking for engineering roles at companies targetting developers, with a strong infrastructure and tooling focus.</p>
 					</section>
 				</section>
 
@@ -616,15 +616,16 @@ h2.section-title {
 							<a href="https://www.datadoghq.com">https://www.datadoghq.com</a>
 						</div>
 						<div class="summary">
-							<p>Datadog is a monitoring and analytics platform for cloud-scale application infrastructure. As part of the Engineering Tools team, my role is to help people be efficient and successful at their jobs. Among other projects, I&#x27;m the main architect behind the build infrastructure used daily by 300 engineers.</p>
+							<p>Datadog is a monitoring and analytics platform for cloud-scale application infrastructure. As part of the Engineering Tools team, my role is to help people be efficient and successful at their jobs. Among other projects, I&#x27;m the main contributor behind the build infrastructure used daily by 400 engineers.</p>
 						</div>
 						<ul class="highlights">
-							<li>Built from scratch the latest generation of build infrastructure: a container-based, locked-down and multi-tenant environment</li>
-							<li>Scaled up Gitlab to reliably run thousands of build jobs per hour, with detailed monitoring and alerting</li>
-							<li>Coached and assisted engineers on CI best practices and performance, shaving hundreds of man-hours of toil and wait times accross all our repositories</li>
-							<li>Designed a per-project CI IAM permission system (kube2iam-like for Gitlab Docker runners)</li>
-							<li>Migrated tens of infrastructure secrets from various stores to AWS SSM, making them centrally managed and auditable</li>
-							<li>Developed a system to give privileged docker socket access to build jobs while keeping safe multi-tenancy</li>
+							<li>Completely rearchitected the build infrastructure from scratch focusing on increased reliability and security, using Docker and Gitlab</li>
+							<li>Scaled up our on-prem Gitlab installation to reliably run a million builds per month, with detailed monitoring and alerting</li>
+							<li>Maintained a fleet of around 200 build runners operating around the clock</li>
+							<li>Coached engineers on CI best practices and performance optimisations, shaving thousands of man-hours accross all our repositories</li>
+							<li>Designed a multi-tenant IAM permission system to isolate sensitive repositories while keeping a generic infrastructure (kube2iam-like for Gitlab Docker runners)</li>
+							<li>Migrated build infrastructure secrets from various stores to AWS SSM, making them centrally managed and auditable</li>
+							<li>Developed a system to give privileged docker socket access to build jobs while preventing persistence accross builds</li>
 							<li>Improved the systems hosting internal artifacts (both debian packages and docker images)</li>
 							<li>Moved the static assets used in the production website to be built for and deployed through a CDN</li>
 							<li>Transitioned our monolith python app to a virtualenv-based deployment</li>
@@ -655,7 +656,7 @@ h2.section-title {
 							<p>Sharette was a carpooling app designed for your every day commute, mixing public transports with car rides. As a co-founder, I had many responsibilities: leading the r&amp;d team, product development and design, fundraising, hiring, company culture, public speaking to name a few.</p>
 						</div>
 						<ul class="highlights">
-							<li>Developed the product and backing infrastructure from scratch, using technologies like Go, Ruby on Rails, Angular, TypeScript, PostgreSQL among others</li>
+							<li>Developed the product and infrastructure from scratch, using Go, Ruby on Rails, Angular, TypeScript, PostgreSQL among others</li>
 							<li>Researched and designed the routing algorithms and geo datastores powering our itinerary search</li>
 							<li>Led the integration of our API in the mobile apps of the Paris public transport company (RATP)</li>
 							<li>Built a fully automated and monitored infrastructure: immutable AMIs, Cloudformation, containers on Amazon ECS, Ansible, Loggly and Datadog</li>
@@ -664,7 +665,6 @@ h2.section-title {
 							<li>Contributed to company-wide team building and management, hiring, company culture and development processes</li>
 							<li>Oversaw the design and branding of the product and the company</li>
 							<li>Open sourced the vagrant-fsnotify gem, a vagrant plugin providing filesystem notifications on shared folders</li>
-							<li>Minor contributions to go-dockerclient, go-errors and definitelytyped.</li>
 						</ul>
 					</div>
 						<header>
