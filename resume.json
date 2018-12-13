@@ -4,9 +4,9 @@
     "label": "Senior Software Engineer",
     "picture": "https://www.gravatar.com/avatar/2ddf351c22a32261a7b30e4d5ae3ab01?s=600",
     "email": "adrien.kohlbecker@gmail.com",
-    "phone": "+44 7432 562897",
+    "phone": "+33 6 61 77 96 55",
     "website": "https://adrienkohlbecker.com",
-    "summary": "I'm a Senior Software Engineer and Entrepreneur with a demonstrated experience in the computer software industry. Throughout my career, I have been focusing on building reliable and scalable distributed systems, as well as increasing developer efficiency through automation. I'm looking for engineering roles at companies targeting developers, with a strong infrastructure and tooling focus.",
+    "summary": "I'm a Senior Software Engineer with a demonstrated experience in the computer software industry. Throughout my career, I have been focusing on building and operating reliable and scalable distributed systems, as well as increasing developer efficiency through automation.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,104 +30,83 @@
   "work": [
     {
       "company": "Datadog",
-      "position": "Senior Software Engineer - Engineering Tools",
+      "position": "Senior Software Engineer",
       "website": "https://www.datadoghq.com",
       "startDate": "2017-01-10",
-      "summary": "Datadog is a monitoring and analytics platform for cloud-scale application infrastructure. As part of the Engineering Tools team, my role is to help people be efficient and successful at their jobs. Among other projects, I'm the main contributor behind the build infrastructure used daily by 400 engineers.",
+      "summary": "Datadog is a monitoring and analytics platform for cloud-scale application infrastructure. Within the Developer Efficiency team, my role is to help people be successful at their jobs through automation, processes and coaching. Specifically, I’m the main architect and operator behind our CI/CD infrastructure.",
       "highlights": [
-        "Completely rearchitected the build infrastructure from scratch focusing on increased reliability and security, using Docker and Gitlab",
-        "Scaled up our on-prem Gitlab installation to reliably run a million builds per month, with detailed monitoring and alerting",
-        "Maintained a fleet of around 200 build runners operating around the clock",
-        "Coached engineers on CI best practices and performance optimisations, shaving thousands of man-hours accross all our repositories",
-        "Designed a multi-tenant IAM permission system to isolate sensitive repositories while keeping a generic infrastructure (kube2iam-like for Gitlab Docker runners)",
-        "Migrated build infrastructure secrets from various stores to AWS SSM, making them centrally managed and auditable",
-        "Developed a system to give privileged docker socket access to build jobs while preventing persistence accross builds",
-        "Improved the systems hosting internal artifacts (both debian packages and docker images)",
-        "Moved the static assets used in the production website to be built for and deployed through a CDN",
-        "Transitioned our monolith python app to a virtualenv-based deployment",
-        "Contributed to the virtualbox development environment used locally by engineers, including building and hosting it in AWS"
+        "Designed from scratch and operated day to day our build infrastructure as a service. This includes configuration management and deployment, security hardening and multi-tenancy, secrets, monitoring, availability, SLOs, on-call rotations and post mortems, documentation. Oversaw a fleet of 200 build runners processing a million builds per month, relied upon by 400 engineers across multiple time zones",
+        "Wrote micro services and tools in Go and Python, configuration management in Ruby (chef-solo) and Terraform",
+        "Advanced user of AWS services, including IAM hardening, auto-scaling, VPC topology and security, and more",
+        "Deep knowledge of Docker and container operations at production scale",
+        "Mentored engineers on CI/CD best practices, helping reduce make-work and inefficiencies",
+        "Contributor to our local development environment, production artifacts stores and deployment tooling"
       ]
     },
     {
       "company": "Sharette",
-      "position": "Co-founder and CTO",
+      "position": "Technical Founder",
       "website": "https://www.facebook.com/sharette.fr",
       "startDate": "2014-07-01",
       "endDate": "2016-04-04",
-      "summary": "Sharette was a carpooling app designed for your every day commute, mixing public transports with car rides. As a co-founder, I had many responsibilities: leading the r&d team, product development and design, fundraising, hiring, company culture, public speaking to name a few.",
+      "summary": "Sharette is a carpooling app mixing public transports with car rides in multimodal itineraries. As a technical founder, I built most of the product and managed an engineering team of 4 people.",
       "highlights": [
-        "Developed the product and infrastructure from scratch, using Go, Ruby on Rails, Angular, TypeScript, PostgreSQL among others",
-        "Researched and designed the routing algorithms and geo datastores powering our itinerary search",
+        "Wrote micro services in Go and Ruby, and a cross-platform mobile app in Typescript and Angular",
+        "Researched and designed the routing algorithms powering our multimodal itinerary search",
         "Led the integration of our API in the mobile apps of the Paris public transport company (RATP)",
-        "Built a fully automated and monitored infrastructure: immutable AMIs, Cloudformation, containers on Amazon ECS, Ansible, Loggly and Datadog",
-        "Managed our self-hosted continuous integration with BuildKite and Docker",
-        "Developed an internal CLI tool for development automation and credentials management",
-        "Contributed to company-wide team building and management, hiring, company culture and development processes",
-        "Oversaw the design and branding of the product and the company",
+        "Responsible for a fully automated and monitored container based deployment on AWS",
         "Open sourced the vagrant-fsnotify gem, a vagrant plugin providing filesystem notifications on shared folders"
       ]
     },
     {
-      "company": "FidMarques",
+      "company": "Fidmarques",
       "position": "Software Engineer",
       "website": "https://www.fidmarques.com/",
       "startDate": "2012-10-01",
       "endDate": "2013-06-30",
-      "summary": "FidMarques extracts and analyses the purchases you made at a grocery store using a picture of your receipt. While I contributed to multiple areas of the product, my primary focus was on building a resilient background processing pipeline and improving developer productivity through automation.",
+      "summary": "Fidmarques is a mobile app that extracts and analyses the groceries you bought using a picture of your receipt. I was tasked with building a resilient data processing pipeline and improve developer efficiency with automation.",
       "highlights": [
-        "Refactored and reorganized our backround processing pipeline using the Ruote workflow manager",
-        "Automated and optimized common developer tasks into a CLI tool",
-        "Designed and implemented a duplicated receipt detection algorithm, based on textual data and the Nilsimsa signature algorithm",
-        "Built a POC for receipt data extraction using a Parsing Expression Grammar (with parslet)",
-        "Migrated our code base to a monorepo using Rails Engines",
-        "Created a unified development environment inside a virtual machine using Vagrant",
-        "Opensourced two gems for controlling Resque jobs from Ruote: ruote-resque and ruote-synchronize",
-        "Minor contributions to the activeadmin and ruote gems."
+        "Refactored our data processing pipeline using the Ruote workflow manager for better efficiency and reliability",
+        "Built command-line tools for deployment and operations automation",
+        "Designed and implemented a duplicated receipt detection algorithm to help fraud detection",
+        "Open sourced two gems for controlling Resque jobs from Ruote: ruote-resque and ruote-synchronize"
       ]
     },
     {
       "company": "Gullibear",
-      "position": "Co-founder and CTO",
+      "position": "Technical Founder",
       "website": "https://www.facebook.com/iam.gullibear",
       "startDate": "2011-09-01",
       "endDate": "2012-09-30",
-      "summary": "Gullibear was a social network to share and contribute to entrpreneurship projects. As a co-founder I participated in many areas of the company including development, design, product, marketing and admin tasks.",
+      "summary": "Gullibear is a social network to share and contribute to social economy projects. As a technical founder I built most of the product, using Python and Backbone.js.",
       "highlights": [
-        "Developed a social platform using python on Google App Engine, Backbone.js, HTML5, CSS3",
-        "Heavily involved in product design and graphic design",
-        "Organized a \"Networked Nonprofit\" conference, with talks from the Red Cross and the Fondation Abbé Pierre",
-        "Presented the company at various public events"
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "École Centrale Paris, Paris (FR)",
-      "studyType": "MSc Engineering",
-      "area": "Computer Science & Project Management",
+      "institution": "École Centrale Paris, France",
+      "studyType": "",
+      "area": "",
       "startDate": "2009-09-01",
       "endDate": "2014-12-30",
       "gpa": "",
       "courses": [
-        "Highly selective master’s level engineering school",
-        "Studied airplane jet engine noise reduction techniques in 100-hour team project",
-        "Designed innovative open-source photography browsing UI in 200-hour team project",
-        "Investigated an innovative self-service car-renting program (Domobile) in 200-hour team project.",
-        "Telemarketer for the school corporate funding team",
-        "Tutor for students ranging from high school level to Bachelor level",
-        "Took a one month beginner chinese course at Shanghai Jiao Tong University",
-        "Participated in Winstrat, a business simulation game, and won the second prize against 100+ competing teams"
+        "MSc Engineering focusing on computer science and entrepreneurship.",
+        "Highly selective engineering school \"Grande École\" – top 1% on national level."
       ]
     },
     {
       "institution": "Hanyang University, Seoul (SK)",
-      "studyType": "Exchange semester",
-      "area": "Computer Science",
+      "studyType": "",
+      "area": "",
       "startDate": "2012-02-01",
       "endDate": "2012-06-30",
       "gpa": "",
-      "courses": []
+      "courses": [
+        "Exchange semester, focusing on computer science and entrepreneurship."
+      ]
     }
   ],
   "awards": [],
