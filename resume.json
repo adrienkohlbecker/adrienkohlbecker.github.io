@@ -10,8 +10,8 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "London",
-      "countryCode": "UK",
+      "city": "The Hague",
+      "countryCode": "NL",
       "region": ""
     },
     "profiles": [
@@ -55,7 +55,7 @@
         "Researched and designed the routing algorithms powering our multimodal itinerary search",
         "Led the integration of our API in the mobile apps of the Paris public transport company (RATP)",
         "Responsible for a fully automated and monitored container based deployment on AWS",
-        "Open sourced the vagrant-fsnotify gem, a vagrant plugin providing filesystem notifications on shared folders"
+        "Open sourced the vagrant-fsnotify gem, a vagrant plugin with moderate success on rubygems"
       ]
     },
     {
@@ -66,10 +66,6 @@
       "endDate": "2013-06-30",
       "summary": "Fidmarques is a mobile app that extracts and analyses the groceries you bought using a picture of your receipt. I was tasked with building a resilient data processing pipeline and improve developer efficiency with automation.",
       "highlights": [
-        "Refactored our data processing pipeline using the Ruote workflow manager for better efficiency and reliability",
-        "Built command-line tools for deployment and operations automation",
-        "Designed and implemented a duplicated receipt detection algorithm to help fraud detection",
-        "Open sourced two gems for controlling Resque jobs from Ruote: ruote-resque and ruote-synchronize"
       ]
     },
     {
@@ -86,7 +82,7 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "École Centrale Paris, France",
+      "institution": "École Centrale",
       "studyType": "",
       "area": "",
       "startDate": "2009-09-01",
@@ -94,7 +90,7 @@
       "gpa": "",
       "courses": [
         "MSc Engineering focusing on computer science and entrepreneurship.",
-        "Highly selective engineering school \"Grande École\" – top 1% on national level."
+        "Highly selective engineering school \"Grande École\" – top 1% at the national level."
       ]
     },
     {
@@ -105,7 +101,7 @@
       "endDate": "2012-06-30",
       "gpa": "",
       "courses": [
-        "Exchange semester, focusing on computer science and entrepreneurship."
+        "Exchange semester, focusing on computer science and entrepreneurship"
       ]
     }
   ],
@@ -122,6 +118,22 @@
       "fluency": "Fluent"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Maintaining a production-like home server",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Amateur boxing",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Drone travel photography",
+      "keywords": [
+      ]
+    }
+  ],
   "references": []
 }
