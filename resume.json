@@ -29,6 +29,15 @@
   },
   "work": [
     {
+      "company": "Gitlab",
+      "position": "Senior Software Engineer",
+      "website": "https://www.gitlab.com",
+      "startDate": "2019-06-03",
+      "summary": "",
+      "highlights": [
+      ]
+    },
+    {
       "company": "Datadog",
       "position": "Senior Software Engineer",
       "website": "https://www.datadoghq.com",
