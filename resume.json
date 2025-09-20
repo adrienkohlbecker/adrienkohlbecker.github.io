@@ -2,15 +2,15 @@
   "basics": {
     "name": "Adrien Kohlbecker",
     "label": "Senior Software Engineer",
-    "picture": "https://www.gravatar.com/avatar/2ddf351c22a32261a7b30e4d5ae3ab01?s=600",
+    "picture": "https://gravatar.com/avatar/69035baf8b29f9da8b03a24e21e813bf846211ea1d08d27ae416c1fbed1bef53?s=600",
     "email": "adrien.kohlbecker@gmail.com",
     "website": "https://adrienkohlbecker.com",
     "summary": "I'm a Senior Software Engineer with a demonstrated experience in the computer software industry. Throughout my career, I have been focusing on building and operating reliable and scalable distributed systems, as well as increasing developer efficiency through automation.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "The Hague",
-      "countryCode": "NL",
+      "city": "Strasbourg",
+      "countryCode": "FR",
       "region": ""
     },
     "profiles": [
